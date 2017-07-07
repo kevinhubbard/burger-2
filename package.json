@@ -7,16 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dlcNine/Burger-Logger.git"
-  },
-  "author": "Dan Cross",
+  "author": "kevin hubbard",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dlcNine/Burger-Logger/issues"
+    "url": "https://github.com/kevinhubbard/burger-2"
   },
-  "homepage": "https://github.com/dlcNine/Burger-Logger#readme",
+  "homepage": "https://github.com/kevinhubbard/burger-2#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
