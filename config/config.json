@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
+    "username": "k0q5c17pfle4uitt",
+    "password": "o6vsbtz6mb2zo410",
     "database": "burgers_db",
-    "host": "127.0.0.1",
+    "host": "olxl65dqfuqr6s4y.cbetxkdyhwsb.us-east-1.rds.amazonaws.com  ",
     "dialect": "mysql"
   },
   "test": {
