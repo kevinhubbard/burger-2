@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<title>Eat The Burger</title>
+	<meta charset="UTF-8">
+	<!-- link to reset CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<!-- link to CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/burger-style.css">
+</head>
+<body>
+	<section>
+		<header>
+			<figure>
+				<div id="burger-container">
+					<img src="./assets/images/burger-icon.svg" alt="burger icon">
+				</div>
+				<h1>Eat the Burger</h1>
+			</figure>
+		</header>
+		<main>
+			<div id="undevoured">
+
+			</div>
+			<div id="devoured">
+
+			</div>
+		</main>
+		<div>
+			<form action="/api/addBurger" method="POST">
+				<input type="text" name="burgerName" required>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<h2>Add a burger using the form. Devour the burger by clicking the "devour" button!</h2>
+	</section>
+</body>
+</html>

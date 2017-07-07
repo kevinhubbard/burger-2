@@ -1,0 +1,159 @@
+/*
+fonts:
+	font-family: "Rubik Mono One", sans-serif; h1 text
+	font-family: "Fjalla One", sans-serif; h2 text
+	font-family: 'Cabin', sans-serif; other Text
+colors:
+	orangish red: #f25024    body color
+	golden yellow: #f9ba39    h1 color
+	crispy golden brown: #e0922c
+	dark brown: #8e480b
+	darker brown: #442103;
+	eggshell: #fcf5de
+
+	lime-ish green: #89c128
+	darker green: #58840d
+*/
+
+/* body
+{
+	background-color: #f25024;
+} */
+
+section
+{
+	width: 80%;
+	margin: auto;
+}
+
+#burger-container
+{
+	width: 25%;
+	margin: auto;
+}
+
+h1
+{
+	font-family: "Rubik Mono One", sans-serif;
+	font-size: 70px;
+	text-align: center;
+	color: #f9ba39;
+	text-shadow: 4px 4px #8e480b;;
+}
+
+h2
+{
+	font-family: "Fjalla One", sans-serif;
+	color: #fcf5de;
+	letter-spacing: 4px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+	margin: 5px 0px 5px 0px;
+}
+
+h3, h4, h5, h6, p
+{
+	font-family: Cabin, sans-serif;
+	font-size: 16px;
+}
+
+main
+{
+	overflow: auto;
+	background-color: #e0922c;
+	border-radius: 8px;
+	padding-bottom: 10px;
+	box-shadow: 4px 4px #8e480b;
+}
+
+main div
+{
+	width: 50%;
+	float: left;
+}
+
+li
+{
+	text-align: center;
+	background-color: #8e480b;
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px #68350a;
+}
+
+li p
+{
+	color: #fcf5de;
+	display: inline-block;
+	padding: 10px;
+}
+
+li button
+{
+	border: none;
+	border-radius: 5px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+	background-color: #fcf5de;
+}
+
+li button:hover
+{
+	background-color: #e0922c;
+	color: #fcf5de;
+	cursor: pointer;
+}
+
+#bottom-box
+{
+	clear: left;
+	margin: auto;
+	text-align: center;
+}
+
+#bottom-box input
+{
+	margin: 20px;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 5px;
+}
+
+#bottom-box button
+{
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	background-color: #89c128;
+	font-family: 'Cabin', sans-serif;
+	font-size: 17px;
+}
+
+#bottom-box button:hover
+{
+	background-color: #58840d;
+	cursor: pointer;
+}
+
+h3
+{
+	border-radius: 5px;
+	background-color: #fcf5de;
+	padding: 10px;
+}
+
+/* Media Query ------------------------------------- */
+
+@media screen and (max-width: 980px)
+{
+	h1
+	{
+		font-size: 60px;
+	}
+}
+
+
+
+
+
